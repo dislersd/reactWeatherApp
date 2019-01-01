@@ -50,18 +50,18 @@ render() {
             <div class="main">
               <div class="container">
                 <div class="row">
-                  <div class="col-xs-5 title-container">
+                  <div class="title-container">
                     
                     <Titles />
                     
                   </div>
-                  <div class="col-xs-7 form-container">
+                  <div class="form-container">
                     
                     <Form getWeather={this.getWeather}/>
                     <Weather 
                       temperature = {this.state.temperature}
                       city = {this.state.city}
-                      country = {this.state.country}
+                      country = {this.state.country}yan
                       humidity = {this.state.humidity}
                       description = {this.state.description}
                       error = {this.state.error}
